@@ -1,0 +1,43 @@
+{
+    "person": [
+        "you",
+        "your best friend",
+        "your brother",
+        "your sister",
+        "your mother",
+        "your father",
+        "your uncle",
+        "your auntie",
+        "your grandfather",
+        "your grandmother",
+        "your cousin",
+        "your 6th class teacher",
+        "the last person you spoke to",
+        "the barista that makes your coffee"
+    ],
+    "prediction": [
+        "win the lottery",
+        "get into a car crash",
+        "win a trip to Toronto in Canada",
+        "die",
+        "travel to space",
+        "learn to code",
+        "receive great news",
+        "receive bad news",
+        "change someones life for the best"
+    ],
+    "when": [
+        "tomorrow",
+        "next Monday",
+        "next Tuesday",
+        "next Wednesday",
+        "next Thursday",
+        "next Friday",
+        "next Saturday",
+        "next Sunday",
+        "on the 25th of December",
+        "next year",
+        "next week",
+        "today in 13 years time"
+    ]
+}
