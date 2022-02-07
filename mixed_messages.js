@@ -4,10 +4,16 @@ const generateRandomNumber = arr => {
     return Math.floor(Math.random() * arr.length);
 }
 
-const randomPerson = generateRandomNumber(randomMessages.person);
-const randomPrediction = generateRandomNumber(randomMessages.prediction);
-const randomTime = generateRandomNumber(randomMessages.when);
+const randomPersonIndex = generateRandomNumber(randomMessages.person);
+const randomPredictionIndex = generateRandomNumber(randomMessages.prediction);
+const randomTimeIndex = generateRandomNumber(randomMessages.when);
 
-console.log(randomMessages.person[randomPerson]);
-console.log(randomMessages.prediction[randomPrediction]);
-console.log(randomMessages.when[randomTime]);
+const buildSentence = (personIndex, predictionIndex, timeIndex) => {
+    let person = randomMessages.person[personIndex];
+    let prediction = randomMessages.prediction[predictionIndex];
+    let time = randomMessages.when[timeIndex];
+
+    return `I predict that ${person} will ${prediction} ${time}.`;
+}
+
+console.log(buildSentence(randomPersonIndex, randomPredictionIndex, randomTimeIndex));
